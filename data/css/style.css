@@ -1,0 +1,126 @@
+.red {
+  color: red;
+}
+.content h2 {
+  align-self: center;
+  margin-bottom: 50px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+}
+.content button {
+  margin-top: 20px;
+  align-self: center;
+}
+.container ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.container li {
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.container h4 {
+  font-size: 15px;
+}
+.container img {
+  width: 300px;
+  height: 400px;
+}
+@media (min-width: 1200px) {
+.container {
+    max-width: 100% !important;
+}
+}
+.infos {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#name {
+  font-size: 20px;
+}
+.recherche {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.recherche button {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+li {
+  list-style-type: none;
+}
+.infos #name {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+.infos #name li {
+    margin-left: 50px;
+}
+.infos #psw {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+#psw {
+  font-size: 20px;
+}
+#loc li {
+    margin-left: 50px;
+}
+.infos {
+  background-color: #f1f1f1;
+}
+#psw {
+  margin-top: -18px !important;
+  padding-bottom: 50px;
+}
+.infos #psw li {
+    margin-left: 50px;
+}
+.infos #photo {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+#photo {
+  font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.infos #loc {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+#loc {
+  font-size: 20px;
+}
