@@ -96,7 +96,6 @@ li {
   background-color: #f1f1f1;
 }
 #psw {
-  margin-top: -18px !important;
   padding-bottom: 50px;
 }
 .infos #psw li {
@@ -123,4 +122,5 @@ li {
 }
 #loc {
   font-size: 20px;
+  padding-bottom: 50px;
 }
